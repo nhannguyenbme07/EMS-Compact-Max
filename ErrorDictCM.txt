@@ -1,0 +1,788 @@
+02.00.00; CUVETTE FEED
+02.03.00; LOADER:Loading station:SHUTTLE MISSING
+02.04.00; NAVETTE NAVETTE ABSENTE
+02.05.00; CUVETTE MISSING Reel problem
+02.06.00; LOADING Cuvette reel empty
+02.10.00; NAVETTE ERREUR DE POSITIONNEMENT DE LA NAVETTE EN MESURE
+02.12.00; LOADER Measurement station SHUTTLE MISSING
+02.23.00; LOADING CUVETTE Please return to test panel 
+02.30.00; LOADER Loader drawer open
+02.42.00; Measurement station SHUTTLE MISSING
+02.43.00; CUVETTE FEED Cuvette missing
+01.00.00; SUPPORT TASK Error
+01.01.00; WASHING SOLUTION EMPTY Intermediate reservoir not full
+01.02.00; WASHING SOLUTION EMPTY Theoretical level < 0 ml
+01.03.00; VACUUM RESERVOIR Level > maximum volume allowed
+01.04.00; VACUUM RESERVOIR Reservoir does not empty
+01.05.00; VACUUM RESERVOIR Insufficient vacuum
+01.06.00; VACUUM RESERVOIR Insufficient vacuum
+01.08.00; AMBIENT TEMPERATURE OUT OF RANGE 
+01.09.00; INCUBATION TEMPERATURE OUT OF RANGE Temperature:
+01.10.00; TEMPERATURE AT PIPETTING TIP OUT OF RANGE Temperature:
+01.11.00; FLUID LOADING Please return to test panel 
+01.12.00; DOORS Open door detected
+01.13.00; PRINTING ERROR Printer reset
+01.14.00; PRINTING ERROR Out of paper
+01.15.00; PRINTING ERROR Printer OFFLINE
+01.16.00; PRINTING ERROR Printer disconnected
+01.17.00; CLEANER RESERVOIR Check presence
+01.18.00; USED LIQUID CONTAINER Check presence
+01.19.00; USED LIQUID CONTAINER Check maximum volume allowed
+01.20.00; CUVETTE BIN CONTAINER Check presence
+11.00.00; SYSTEM BOOT Error
+11.01.00; Incorrect measuring software version
+11.01.01; Incorrect measuring RAM status
+11.01.02; Incorrect measuring ROM status
+11.01.03; Incorrect measuring software version
+11.01.04; Incorrect measuring management RAM status
+11.01.05; Incorrect measuring management ROM status
+11.02.00; Incorrect PID software version
+11.02.01; Incorrect PID RAM status
+11.02.02; Incorrect PID ROM status
+11.02.03; Product drawer model is not suitable Please run the program AUTIROIR
+11.03.00; A DRAWER CANNOT CLOSE Drawer #:
+11.04.00; Incorrect colorometry calibration
+11.05.00; MEASUREMENT CALIBRATION Chronometric calibration has been altered Please rerun the calibration
+11.06.00; MEASUREMENT CALIBRATION No response from measurement plate
+11.07.00; Incorrect immunology calibration
+11.08.01; COLORIMETRY Colorimetric module temperature is too high
+11.08.02; COLORIMETRY Colorimetry lamp does not work
+11.08.03; COLORIMETRY Colorimetry lamp level is too low
+11.08.04; COLORIMETRY Colorimetry motor problem
+11.08.05; COLORIMETRY Colorimetry motor is too slow
+11.08.06; COLORIMETRY Conversion error
+11.08.07; COLORIMETRY Unknown colorimetry error
+11.08.08; COLORIMETRY No response from colorimetric block status
+11.09.00; Time or date have drifted Please, check!
+11.10.00; Incorrect axis Z software version#:
+11.10.01; Incorrect axis Z RAM status
+11.10.02; Incorrect axis Z ROM status
+11.10.03; No signal received from axis Z Tx:
+11.10.04; Additional offset error
+11.10.23; FLUIDICS PART The pipettor configuration detected is not the expected configuration.
+11.10.24; FLUIDICS PART The MPP firmware version is not suitable for the pipettor configuration.
+11.11.00; MEASUREMENT CALIBRATION Calibration lamp altered Please rerun the calibration
+12.00.00; IMPORT - EXPORT Error
+12.00.01; DATA EXPORT Please select at least one methodology.
+12.00.02; DATA EXPORT Please enter the MU version
+12.00.03; DATA EXPORT The selected directory already exists. Select one.
+12.00.04; DATA EXPORT The selected directory does not exist.  Refresh or select another one.
+51.00.00; SAMPLE LOADING Error
+51.001; TEXT FILE NOT FOUND Filename:
+51.002; SAMPLE DRAWER JAMMED Please unjam the door
+51.003; SAMPLE DRAWER JAMMED Please unjam the door
+51.004; PRODUCTS MISSING Do you want to load the products before starting the analyses?
+51.005; ERROR Incorrect position!
+51.006; WARNING Position already occupied! Can you confirm the position?
+51.007; WARNING The number is too high! Please change the starting #
+51.008; Only loading in progress can be modified!
+51.009; Are you sure you want to remove this sample from the drawer?
+51.010; LOADING IMPOSSIBLE Product is out of date!
+51.011; DOWNLOADING Please ensure that the tube has been removed from position 
+51.012; SAMPLE DUPLICATED Please re-identify
+51.013; EXCEEDS CAPACITY There are too many samples Please finish analyses and delete samples
+51.014; PRODUCT Calibration to redo
+51.015; The name of the reagent does not match the ID
+51.016; Error in the volume entered This volume is not possible!
+51.017; The volume is greater than that of the vial!
+51.018; Input stability is greater than default stability!
+51.019; Data input is mandatory!
+51.020; Are you sure you want to remove this product from the drawer?
+51.021; Identification must be numerical! Read ID:
+51.023; WARNING Check the position of the last vial Is it correct?
+53.00.00; LIQUID LOADING Error No error message for this code
+53.001; Incorrect vial  positionning Please replace the vials
+52.00.00; LOADING PRODUCTS Error
+52.002; PRODUCTS DRAWER JAMMED Please unjam the drawer
+52.003; PRODUCTS DRAWER JAMMED Please unjam the drawer
+52.008; ERROR Position incorrect!
+52.009; WARNING Position already occupied! Are you sure of the position?
+52.010; LOADING IMPOSSIBLE  Product is out of date!
+52.011; TEXT FILE NOT FOUND Filename:
+52.012; Lot change detected 
+52.013; Only loading in progress can be modified!
+52.014; At least 6 characters need to be entered to identify product name
+52.015; The name of the product does not match the ID
+52.016; Error in the volume entered This volume is not possible!
+52.017; The volume is greater than that of the vial!
+52.018; Input stability is greater than default stability!
+52.019; Data input is mandatory!
+52.020; Are you sure you want to remove this product from the drawer?
+52.021; LOADING REAGENT Should the product be stirred?
+52.022; POSITION ERROR The product must be in a stirring position Please remove and replace this product
+52.023; WARNING Check the position of the last vial. Is it correct?
+52.024; The data entered is not correct!
+06.00.00; ANAGEMENT OF ARM #1 Error
+06.01.01; AUTOZERO Axis P movement impossible Axis error:
+06.01.02; AUTOZERO Axis X movement impossible Axis error:
+06.01.03; AUTOZERO Axis Y movement impossible Axis error:
+06.01.04; AUTOZERO Axis Z1 movement impossible Axis error:
+06.01.05; AUTOZERO Axis Z2 movement impossible Axis error:
+06.01.06; AUTOZERO Axis Z3 movement impossible Axis error:
+06.01.07; AUTOZERO Axis Z1 movement impossible
+06.01.08; AUTOZERO Axis Z2 movement impossible
+06.01.09; AUTOZERO Axis Z3 movement impossible
+06.01.10; AUTOZERO Axis Z1 movement impossible Axis error:
+06.01.11; AUTOZERO Axis Z2 movement impossible Axis error:
+06.01.12; AUTOZERO Axis Z3 movement impossible Axis error:
+06.01.13; AUTOZERO Axis Z1 movement incomplete
+06.01.14; AUTOZERO Axis Z2 movement incomplete
+06.01.15; AUTOZERO Axis Z3 movement incomplete
+06.01.16; AUTOZERO Axis X movement impossible Axis error:
+06.01.17; AUTOZERO Axis Y movement impossible Axis error:
+06.01.18; AUTOZERO Incomplete movement 
+06.01.19; AUTOZERO Axis Y movement impossible Axis error:
+06.01.20; AUTOZERO Axis Z1 movement impossible Axis error:
+06.01.21; AUTOZERO Axis Z2 movement impossible Axis error:
+06.01.22; AUTOZERO Axis Z3 movement impossible Axis error:
+06.01.23; AUTOZERO The needle could be damaged. Check needle #
+06.01.24; AUTOZERO The needle could be damaged. Check needle #
+06.01.25; AUTOZERO The needle could be damaged. Check needle #
+06.01.80; AUTOZERO Axis P movement impossible Axis error:
+06.01.81; AUTOZERO Axis P movement incomplete
+06.01.84; AUTOZERO Axis X movement impossible Axis error:
+06.01.85; AUTOZERO Axis Z movement impossible Axis error:
+06.01.86; AUTOZERO Axis Z movement incomplete Axis:
+06.01.87; AUTOZERO Axis P movement impossible Axis error:
+06.01.88; AUTOZERO Axis P movement incomplete
+06.01.89; AUTOZERO Axis P movement impossible Axis error:
+06.02.10; STANDBY Axis Z1 movement impossible Axis error:
+06.02.11; STANDBY Axis Z2 movement impossible Axis error:
+06.02.12; STANDBY Axis Z3 movement impossible Axis error:
+06.02.13; STANDBY Axis Z1 movement incomplete
+06.02.14; STANDBY Axis Z2 movement incomplete
+06.02.15; STANDBY Axis Z3 movement incomplete
+06.02.16; STANDBY Axis X movement impossible Axis error:
+06.02.17; STANDBY Axis Y movement impossible Axis error:
+06.02.18; STANDBY Incomplete movement
+06.02.19; STANDBY Axis Y movement impossible Axis error:
+06.02.20; STANDBY Axis Z1 movement impossible Axis error:
+06.02.21;STANDBY Axis Z2 movement impossible Axis error:
+06.02.22;STANDBY Axis Z3 movement impossible Axis error:
+06.02.23; STANDBY The needle could be damaged. Check needle #
+06.02.24; STANDBY The needle could be damaged. Check needle #
+06.02.25; STANDBY The needle could be damaged. Check needle #
+06.02.26; STANDBY Axis P movement impossible Axis error:
+06.02.27; STANDBY Axis P movement incomplete
+06.02.28; STANDBY Axis P movement impossible Axis error:
+06.02.85; STANDBY Axis Z movement impossible Axis error:
+06.02.86; STANDBY Axis Z movement incomplete
+06.02.87; STANDBY Axis P movement impossible Axis error:
+06.02.88; STANDBY Axis P movement incomplete
+06.02.89; STANDBY Axis P movement impossible Axis error:
+06.05.01; DESORB PIPETTING Axis X movement impossible Axis error:
+06.05.02; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.05.03; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.04; DESORB PIPETTING Incomplete movement
+06.05.05; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.05.06; DESORB PIPETTING Axis Z1 movement impossible Axis error:
+06.05.07; DESORB PIPETTING The needle could be damaged. Check needle #
+06.05.08; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.09; DESORB PIPETTING Axis P movement incomplete
+06.05.10; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.11; NEEDLE #1 No level detection for the desorb Id:
+06.05.12; DESORB PIPETTING Axis Z1 movement impossible Axis error:
+06.05.13; DESORB PIPETTING Axis Z1 movement incomplete
+06.05.14; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.15; DESORB PIPETTING Axis P movement incomplete
+06.05.16; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.21; DESORB PIPETTING  Incomplete movement
+06.05.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.05.42; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.05.43; DESORB PIPETTING Incomplete movement
+06.05.44; DESORB PIPETTING Axis Z1 movement impossible Axis error:
+06.05.45; DESORB PIPETTING The needle could be damaged. Check needle #
+06.05.46; DESORB PIPETTING Axis X movement impossible Axis error:
+06.05.47; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.05.61; Incorrect desorb position Axis X has slipped from
+06.05.62; Incorrect desorb position Axis Y has slipped from
+06.05.80; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.81; DESORB PIPETTING Axis P movement incomplete
+06.05.82; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.83; Incorrect desorb volume The pipettor has slipped from
+06.05.84; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.85; DESORB PIPETTING Axis Z1 movement impossible Axis error:
+06.05.86; DESORB PIPETTING Axis Z1 movement incomplete
+06.05.87; DESORB PIPETTING Axis P movement impossible Axis error:
+06.05.88; DESORB PIPETTING Axis P movement incomplete
+06.05.89; DESORB PIPETTING Axis P movement impossible Axis error:
+06.10.01; DILUENT PIPETTING Axis X movement impossible Axis error:
+06.10.02; DILUENT PIPETTING Axis Y movement impossible Axis error:
+06.10.03; DILUENT PIPETTING Axis P movement impossible Axis error:
+06.10.04; DILUENT PIPETTING Incomplete movement
+06.10.05; DILUENT PIPETTING Axis Y movement impossible Axis error:
+06.10.06; DILUENT PIPETTING Axis Z1 movement impossible Axis error:
+06.10.07; DILUENT PIPETTING The needle could be damaged. Check needle #
+06.10.08; DILUENT PIPETTING Axis P movement impossible Axis error:
+06.10.09; DILUENT PIPETTING Axis P movement incomplete
+06.10.10; DILUENT PIPETTING Axis P movement impossible Axis error:
+06.10.11; NEEDLE #1 No level detection for a diluent Id:
+06.10.12; DILUENT PIPETTING Axis Z1 movement impossible Axis error:
+06.10.13; DILUENT PIPETTING Axis Z1 movement incomplete
+06.10.14; DILUENT PIPETTING Axis P movement impossible Axis error:
+06.10.15; DILUENT PIPETTING Axis P movement incomplete
+06.10.16; DILUENT PIPETTING Axis P movement impossible Axis error:
+06.11.01; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.02; SAMPLE PIPETTING Axis Y movement impossible Axis error:
+06.11.03; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.04; SAMPLE PIPETTING Incomplete movement
+06.11.05; SAMPLE PIPETTING Axis Y movement impossible Axis error:
+06.11.06; SAMPLE PIPETTING Axis Z1 movement impossible Axis error:
+06.11.07; SAMPLE PIPETTING The needle could be damaged. Check needle #
+06.11.08; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.09; SAMPLE PIPETTING Axis P movement incomplete
+06.11.10; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.11; NEEDLE #1 No level detection for the sample Id:
+06.11.12; SAMPLE PIPETTING Axis Z1 movement impossible Axis error:
+06.11.13; SAMPLE PIPETTING Axis Z1 movement incomplete
+06.11.14; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.15; SAMPLE PIPETTING Axis P movement incomplete
+06.11.16; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.17; NEEDLE #1 Plasma outflow not detected for a sample Id:
+06.11.21; SAMPLE PIPETTING Incomplete movement
+06.11.23; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.24; SAMPLE PIPETTING Axis Y movement impossible Axis error:
+06.11.25; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.26; SAMPLE PIPETTING Incomplete movement
+06.11.27; SAMPLE PIPETTING Axis Y movement impossible Axis error:
+06.11.28; SAMPLE PIPETTING Axis Z1 movement impossible Axis error:
+06.11.29; SAMPLE PIPETTING The needle could be damaged. Check needle #
+06.11.30; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.31; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.32; SAMPLE PIPETTING Axis P movement incomplete
+06.11.33; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.34; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.35; SAMPLE PIPETTING Axis X movement incomplete 
+06.11.36; SAMPLE PIPETTING Axis Z1 movement impossible Axis error:
+06.11.37; SAMPLE PIPETTING Axis Z1 movement incomplete
+06.11.41; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.42; SAMPLE PIPETTING Axis Y movement impossible Axis error:
+06.11.43; SAMPLE PIPETTING Incomplete movement
+06.11.44; SAMPLE PIPETTING Axis Z1 movement impossible Axis error:
+06.11.45; SAMPLE PIPETTING The needle could be damaged. Check needle #
+06.11.46; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.47; SAMPLE PIPETTING Axis Y movement impossible Axis error:
+06.11.61; Incorrect sample position Axis X has slipped from
+06.11.62; Incorrect sample position Axis Y has slipped from
+06.11.80; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.81; SAMPLE PIPETTING Axis P movement incomplete
+06.11.82; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.83; Incorrect sample volume The pipettor has slipped from
+06.11.84; SAMPLE PIPETTING Axis X movement impossible Axis error:
+06.11.85; SAMPLE PIPETTING Axis Z1 movement impossible Axis error:
+06.11.86; SAMPLE PIPETTING Axis Z1 movement incomplete
+06.11.87; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.11.88; SAMPLE PIPETTING Axis P movement incomplete 
+06.11.89; SAMPLE PIPETTING Axis P movement impossible Axis error:
+06.20.01; DESORB PIPETTING Axis X movement impossible Axis error:
+06.20.02; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.20.03; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.04; DESORB PIPETTING Incomplete movement
+06.20.05; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.20.06; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.20.07; DESORB PIPETTING The needle could be damaged. Check needle #
+06.20.08; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.09; DESORB PIPETTING Axis P movement incomplete 
+06.20.10; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.11; NEEDLE #2 No level detection for the desorb Id:
+06.20.12; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.20.13; DESORB PIPETTING Axis Z2 movement incomplete
+06.20.14; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.15; DESORB PIPETTING Axis P movement incomplete
+06.20.16; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.21; DESORB PIPETTING  Incomplete movement
+06.20.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.20.42; DESORB PIPETTINGAxis Y movement impossible Axis error:
+06.20.43; DESORB PIPETTING Incomplete movement 
+06.20.44; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.20.45; DESORB PIPETTING The needle could be damaged. Check needle #
+06.20.46; DESORB PIPETTING Axis X movement impossible Axis error:
+06.20.47; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.20.61; Incorrect desorb position Axis X has slipped from 
+06.20.62; Incorrect desorb position Axis Y has slipped from 
+06.20.80; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.81; DESORB PIPETTING Axis P movement incomplete
+06.20.82; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.83; Incorrect desorb volume The pipettor has slipped from
+06.20.84; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.85; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.20.86; DESORB PIPETTING Axis Z2 movement incomplete 
+06.20.87; DESORB PIPETTING Axis P movement impossible Axis error:
+06.20.88; DESORB PIPETTING Axis P movement incomplete
+06.20.89; DESORB PIPETTING Axis P movement impossible Axis error:
+06.21.01; REAGENT PIPETTING Axis X movement impossible  Axis error:
+06.21.02; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.21.03; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.04; REAGENT PIPETTING Incomplete movement
+06.21.05; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.21.06; REAGENT PIPETTING Axis Z2 movement impossible Axis error:
+06.21.07; REAGENT PIPETTING The needle could be damaged. Check needle #
+06.21.08; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.09; REAGENT PIPETTING Axis P movement incomplete
+06.21.10; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.11; NEEDLE #2 No level detection for a reagent Id:
+06.21.12; REAGENT PIPETTING Axis Z2 movement impossible Axis error:
+06.21.13; REAGENT PIPETTING Axis Z2 movement incomplete
+06.21.14; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.15; REAGENT PIPETTING Axis P movement incomplete
+06.21.16; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.21; REAGENT PIPETTING Incomplete movement
+06.21.23; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.21.24; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.21.25; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.26; REAGENT PIPETTING Incomplete movement
+06.21.27; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.21.28; REAGENT PIPETTING Axis Z2 movement impossible Axis error:
+06.21.29; REAGENT PIPETTING The needle could be damaged. Check needle #
+06.21.30; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.21.31; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.32; REAGENT PIPETTING Axis P movement incomplete
+06.21.33; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.34; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.21.35; REAGENT PIPETTING Axis X movement incomplete
+06.21.36; REAGENT PIPETTING Axis Z2 movement impossible Axis error:
+06.21.37; REAGENT PIPETTING Axis Z2 movement incomplete
+06.21.41; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.21.42; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.21.43; REAGENT PIPETTING Incomplete movement
+06.21.44; REAGENT PIPETTING Axis Z2 movement impossible Axis error:
+06.21.45; REAGENT PIPETTING The needle could be damaged. Check needle #
+06.21.46; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.21.47; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.21.61; Incorrect reagent position Axis X has slipped from
+06.21.62; Incorrect reagent position Axis Y has slipped from
+06.21.80; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.81; REAGENT PIPETTING Axis P movement incomplete
+06.21.82; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.83; Incorrect reagent volume The pipettor has slipped from
+06.21.84; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.85; REAGENT PIPETTING Axis Z2 movement impossible Axis error:
+06.21.86; REAGENT PIPETTING Axis Z2 movement incomplete
+06.21.87; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.21.88; REAGENT PIPETTING Axis P movement incomplete 
+06.21.89; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.22.01; DESORB PIPETTING Axis X movement impossible Axis error:
+06.22.02; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.22.03; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.04; DESORB PIPETTING Incomplete movement
+06.22.05; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.22.06; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.22.07; DESORB PIPETTING The needle could be damaged. Check needle #
+06.22.08; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.09; DESORB PIPETTING Axis P movement incomplete
+06.22.10; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.11; NEEDLE #2 No level detection for the desorb Id:
+06.22.12; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.22.13; DESORB PIPETTING Axis Z2 movement incomplete 
+06.22.14; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.15; DESORB PIPETTING Axis P movement incomplete
+06.22.16; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.21; DESORB PIPETTING  Incomplete movement 
+06.22.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.22.42; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.22.43; DESORB PIPETTING Incomplete movement
+06.22.44; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.22.45; DESORB PIPETTING The needle could be damaged. Check needle #
+06.22.46; DESORB PIPETTING Axis X movement impossible Axis error:
+06.22.47; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.22.61; Incorrect desorb position Axis X has slipped from
+06.22.62; Incorrect desorb position Axis Y has slipped from
+06.22.80; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.81; DESORB PIPETTING Axis P movement incomplete
+06.22.82; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.83; Incorrect desorb volume The pipettor has slipped from
+06.22.84; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.85; DESORB PIPETTING Axis Z2 movement impossible Axis error:
+06.22.86; DESORB PIPETTING Axis Z2 movement incomplete
+06.22.87; DESORB PIPETTING Axis P movement impossible Axis error:
+06.22.88; DESORB PIPETTING Axis P movement incomplete
+06.22.89; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.01; DESORB PIPETTING Axis X movement impossible Axis error:
+06.30.02; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.30.03; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.04; DESORB PIPETTING Incomplete movement 
+06.30.05; DESORB PIPETTING Axis Y movement impossible Axis error: 
+06.30.06; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.30.07; DESORB PIPETTING The needle could be damaged. Check needle #
+06.30.08; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.09; DESORB PIPETTING Axis P movement incomplete
+06.30.10; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.11; NEEDLE #3 No level detection for the desorb Id:
+06.30.12; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.30.13; DESORB PIPETTING Axis Z3 movement incomplete
+06.30.14; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.15; DESORB PIPETTING Axis P movement incomplete
+06.30.16; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.30.42; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.30.43; DESORB PIPETTING Incomplete movement
+06.30.44; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.30.45; DESORB PIPETTING The needle could be damaged. Check needle #
+06.30.46; DESORB PIPETTING Axis X movement impossible Axis error:
+06.30.47; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.30.61; Incorrect desorb position Axis X has slipped from 
+06.30.62; Incorrect desorb position Axis Y has slipped from
+06.30.80; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.81; DESORB PIPETTING Axis P movement incomplete
+06.30.82; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.83; Incorrect desorb volume The pipettor has slipped from
+06.30.84; DESORB PIPETTING Axis X movement impossible Axis error:
+06.30.85; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.30.86; DESORB PIPETTING Axis Z3 movement incomplete
+06.30.87; DESORB PIPETTING Axis P movement impossible Axis error:
+06.30.88; DESORB PIPETTING Axis P movement incomplete 
+06.30.89; DESORB PIPETTING Axis P movement impossible Axis error:
+06.31.01; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.31.02; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.31.03; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.04; REAGENT PIPETTING Incomplete movement
+06.31.05; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.31.06; REAGENT PIPETTING Axis Z3 movement impossible Axis error:
+06.31.07; REAGENT PIPETTING The needle could be damaged. Check needle #
+06.31.08; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.09; REAGENT PIPETTING Axis P movement incomplete 
+06.31.10; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.11; NEEDLE #3 No level detection  for a reagent Id:
+06.31.12; REAGENT PIPETTING Axis Z3 movement impossible Axis error:
+06.31.13; REAGENT PIPETTING Axis Z3 movement incomplete 
+06.31.14; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.15; REAGENT PIPETTING Axis P movement incomplete
+06.31.16; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.21; REAGENT PIPETTING Incomplete movement 
+06.31.22; REAGENT HEATING Reagent overheated
+06.31.23; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.31.24; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.31.25; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.26; REAGENT PIPETTING Incomplete movement
+06.31.27; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.31.28; REAGENT PIPETTING Axis Z3 movement impossible Axis error:
+06.31.29; REAGENT PIPETTING The needle could be damaged. Check needle #
+06.31.30; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.31.31; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.32; REAGENT PIPETTING Axis P movement incomplete 
+06.31.33; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.34; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.31.35; REAGENT PIPETTING Axis X movement incomplete
+06.31.36; REAGENT PIPETTING Axis Z3 movement impossible Axis error:
+06.31.37; REAGENT PIPETTING Axis Z3 movement incomplete
+06.31.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.31.42; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.31.43; REAGENT PIPETTING Incomplete movement
+06.31.44; REAGENT PIPETTING Axis Z3 movement impossible Axis error:
+06.31.45; REAGENT PIPETTING The needle could be damaged. Check needle #
+06.31.46; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.31.47; REAGENT PIPETTING Axis Y movement impossible Axis error:
+06.31.61; Incorrect reagent position Axis X has slipped from
+06.31.62; Incorrect reagent position Axis Y has slipped from
+06.31.80; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.81; REAGENT PIPETTING Axis P movement incomplete
+06.31.82; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.83; Incorrect reagent volume The pipettor has slipped from
+06.31.84; REAGENT PIPETTING Axis X movement impossible Axis error:
+06.31.85; REAGENT PIPETTING Axis Z3 movement impossible Axis error:
+06.31.86; REAGENT PIPETTING Axis Z3 movement incomplete
+06.31.87; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.88; REAGENT PIPETTING Axis P movement incomplete
+06.31.89; REAGENT PIPETTING Axis P movement impossible Axis error:
+06.31.90; REAGENT PIPETTING Pipetting not performed 
+06.32.01; DESORB PIPETTING Axis X movement impossible Axis error:
+06.32.02; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.32.03; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.04; DESORB PIPETTING Incomplete movement
+06.32.05; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.32.06; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.32.07; DESORB PIPETTING The needle could be damaged. Check needle #
+06.32.08; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.09; DESORB PIPETTING Axis P movement incomplete
+06.32.10; DESORB PIPETTING Axis P movement impossible Axis error: 
+06.32.11; NEEDLE #3 No level detection for the desorb Id:
+06.32.12; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.32.13; DESORB PIPETTING Axis Z3 movement incomplete
+06.32.14; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.15; DESORB PIPETTING Axis P movement incomplete
+06.32.16; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.32.42; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.32.43; DESORB PIPETTING Incomplete movement
+06.32.44; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.32.45; DESORB PIPETTING The needle could be damaged. Check needle #
+06.32.46; DESORB PIPETTING Axis X movement impossible Axis error:
+06.32.47; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.32.61; Incorrect desorb position Axis X has slipped from
+06.32.62; Incorrect desorb position Axis Y has slipped from
+06.32.80; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.81; DESORB PIPETTING Axis P movement incomplete
+06.32.82; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.83; Incorrect desorb volume The pipettor has slipped from
+06.32.84; DESORB PIPETTING Axis X movement impossible Axis error:
+06.32.85; DESORB PIPETTING Axis Z3 movement impossible Axis error:
+06.32.86; DESORB PIPETTING Axis Z3 movement incomplete 
+06.32.87; DESORB PIPETTING Axis P movement impossible Axis error:
+06.32.88; DESORB PIPETTING Axis P movement incomplete
+06.32.89; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.01; DESORB PIPETTING Axis X movement impossible Axis error:
+06.40.02; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.40.03; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.04; DESORB PIPETTING Incomplete movement
+06.40.05; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.40.06; DESORB PIPETTING Axis Z movement impossible Axis error:
+06.40.07; DESORB PIPETTING The needle could be damaged. Check needle # 
+06.40.08; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.09; DESORB PIPETTING Axis P movement incomplete
+06.40.10; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.11; No level detection for the desorb Id:
+06.40.12; DESORB PIPETTING Axis Z movement impossible Axis error:
+06.40.13; DESORB PIPETTING Axis Z movement incomplete
+06.40.14; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.15; DESORB PIPETTING Axis P movement incomplete
+06.40.16; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.41; DESORB PIPETTING Axis X movement impossible Axis error:
+06.40.42; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.40.43; DESORB PIPETTING Incomplete movement
+06.40.44; DESORB PIPETTING Axis Z movement impossible Axis error:
+06.40.45; DESORB PIPETTING The needle could be damaged. Check needle #
+06.40.46; DESORB PIPETTING Axis X movement impossible Axis error:
+06.40.47; DESORB PIPETTING Axis Y movement impossible Axis error:
+06.40.61; Incorrect desorb position Axis X has slipped from
+06.40.62; Incorrect desorb position Axis Y has slipped from
+06.40.80; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.81; DESORB PIPETTING Axis P movement incomplete
+06.40.82; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.83; Incorrect desorb volume The pipettor has slipped from
+06.40.84; DESORB PIPETTING Axis X movement impossible Axis error:
+06.40.85; DESORB PIPETTING Axis Z movement impossible Axis error:
+06.40.86; DESORB PIPETTING Axis Z movement incomplete
+06.40.87; DESORB PIPETTING Axis P movement impossible Axis error:
+06.40.88; DESORB PIPETTING Axis P movement incomplete
+06.40.89; DESORB PIPETTING Axis P movement impossible Axis error:
+07.00.00; MANAGEMENT OF ARM #2 Error
+07.01.01; AUTOZERO Axis Y movement impossible Axis error:
+07.01.03; AUTOZERO Axis Z movement impossible Axis error:
+07.01.04; AUTOZERO Axis Z movement incomplete
+07.01.05; AUTOZERO Axis Y movement impossible Axis error:
+07.01.06; AUTOZERO Axis Y movement incomplete
+07.01.07; AUTOZERO Axis Y movement impossible Axis error:
+07.01.10; AUTOZERO Axis Y movement impossible Axis error:
+07.01.11; AUTOZERO Axis Y movement impossible Axis error:
+07.01.12; AUTOZERO Axis Y movement incomplete
+07.01.13; AUTOZERO Axis Y movement impossible Axis error:
+07.01.14; Incorrect position Axis Y has slipped from 
+07.01.50; AUTOZERO Axis Y movement impossible Axis error:
+07.01.51; AUTOZERO Axis Y movement incomplete
+07.01.52; AUTOZERO Axis Y movement impossible Axis error:
+07.02.01; SUCTION TEST Axis Y movement impossible Axis error:
+07.02.02; SUCTION TEST Axis Y movement incomplete
+07.02.03; SUCTION TEST Axis Z movement impossible Axis error:
+07.02.04; SUCTION TEST Axis Y movement impossible Axis error:
+07.02.05; SUCTION TEST Axis Z movement incomplete
+07.02.06; SUCTION TEST Axis Z movement impossible Axis error:
+07.02.07; SUCTION TEST Axis Z movement incomplete
+07.02.10; Suction is not operating correctly
+07.02.50; SUCTION TEST Axis Y movement impossible Axis error:
+07.02.51; SUCTION TEST Axis Y movement incomplete
+07.02.52; SUCTION TEST Axis Y movement impossible Axis error:
+07.10.01; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.02; INCUBATION LOADING Axis Y movement incomplete
+07.10.03; INCUBATION LOADING Axis Z movement impossible Axis error:
+07.10.04; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.05; INCUBATION LOADING Axis Z movement incomplete
+07.10.06; INCUBATION LOADING Axis Z movement impossible  Axis error:
+07.10.07; INCUBATION LOADING Axis Z movement incomplete
+07.10.08; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.09; INCUBATION LOADING Axis Y movement incomplete
+07.10.10; INCUBATION LOADING Axis Z movement impossible Axis error:
+07.10.11; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.12; INCUBATION LOADING Axis Z movement incomplete
+07.10.13; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.14; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.15; INCUBATION LOADING Axis Y movement incomplete
+07.10.16; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.17; INCUBATION LOADING Axis Z movement impossible Axis error:
+07.10.18; INCUBATION LOADING Axis Z movement incomplete 
+07.10.30; INCUBATION LOADING Cuvette missing
+07.10.50; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.10.51; INCUBATION LOADING Axis Y movement incomplete
+07.10.52; INCUBATION LOADING Axis Y movement impossible Axis error:
+07.20.01; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.02; TRANSFER TO MEASUREMENT Axis Y movement incomplete
+07.20.03; TRANSFER TO MEASUREMENT Axis Z movement impossible Axis error:
+07.20.04; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.05; TRANSFER TO MEASUREMENT Axis Z movement incomplete
+07.20.06; TRANSFER TO MEASUREMENT Axis Z movement impossible Axis error:
+07.20.07; TRANSFER TO MEASUREMENT Axis Z movement incomplete 
+07.20.08; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.09; TRANSFER TO MEASUREMENT Axis Y movement incomplete
+07.20.10; TRANSFER TO MEASUREMENT Axis Z movement impossible Axis error:
+07.20.11; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.12; TRANSFER TO MEASUREMENT Axis Z movement incomplete
+07.20.13; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.14; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.15; TRANSFER TO MEASUREMENT Axis Y movement incomplete
+07.20.16; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.17; TRANSFER TO MEASUREMENT Axis Z movement impossible Axis error:
+07.20.18; TRANSFER TO MEASUREMENT Axis Z movement incomplete
+07.20.30; TRANSFER TO MEASUREMENT Missing cuvette
+07.20.50; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.20.51; TRANSFER TO MEASUREMENT Axis Y movement incomplete
+07.20.52; TRANSFER TO MEASUREMENT Axis Y movement impossible Axis error:
+07.30.01; REMOVAL Axis Y movement impossible Axis error:
+07.30.02; REMOVAL Axis Y movement incomplete
+07.30.03; REMOVAL Axis Z movement impossible Axis error:
+07.30.04; REMOVAL Axis Y movement impossible Axis error:
+07.30.05; REMOVAL Axis Z movement incomplete
+07.30.06; REMOVAL Axis Z movement impossible Axis error:
+07.30.07; REMOVAL Axis Z movement incomplete
+07.30.08; REMOVAL Axis Y movement impossible Axis error:
+07.30.09; REMOVAL Axis Y movement incomplete
+07.30.10; REMOVAL Axis Z movement impossible Axis error:
+07.30.11; REMOVAL Axis Y movement impossible Axis error:
+07.30.12; REMOVAL Axis Z movement incomplete
+07.30.13; REMOVAL Axis Y movement impossible Axis error:
+07.30.14; REMOVAL Axis Y movement impossible Axis error:
+07.30.15; REMOVAL Axis Y movement incomplete
+07.30.16; REMOVAL Axis Y movement impossible Axis error:
+07.30.17; REMOVAL Axis Z movement impossible Axis error:
+07.30.18; REMOVAL Axis Z movement incomplete
+07.30.30; REMOVAL Cuvette missing
+07.30.50; REMOVAL Axis Y movement impossible Axis error:
+07.30.51; REMOVAL Axis Y movement incomplete
+07.30.52; REMOVAL Axis Y movement impossible Axis error:
+10.00.00; MEASUREMENT MANAGEMENT Error
+10.01.01; MEASUREMENT PLATE LIAISON Incorrect channel reception channel:
+10.01.02; MEASUREMENT PLATE LIAISON Incorrect channel reception channel:
+10.01.03; COLORIMETRY Colorimetry lamp does not work
+10.01.04; COLORIMETRY Colorimetry motor problem
+10.01.05; COLORIMETRY Colorimetric module temperature is too high
+10.01.06; COLORIMETRY Colorimetry motor is too slow
+10.01.07; COLORIMETRY Conversion error
+10.01.08; COLORIMETRY Colorimetry lamp level is too low
+10.01.09; COLORIMETRY Unknown colorimetry error
+10.02.01; ERREUR NON DEFINIE ERREUR
+10.03.01; COMMUNICATION HOST SYSTEM Transmission impossible
+10.03.11; DATA BASE Problem reading file CQ.DAT Rank:
+10.03.12; QUALITY CONTROL Control out of range for the 
+10.03.13; DATA BASE Problem reading file CQRESUL.DAT Rank:
+10.03.14; CALIBRATION CONTROL Control is out of range for the  
+10.03.15; DATA BASE Problem reading file CALIB.DAT Rank:
+10.03.50; DATA BASE Problem reading file CALIB.DAT Rank:
+10.03.51; CALIBRATION calibration needs confirming for the
+10.03.52; CALIBRATION GRAPH Graph is invalid for the 
+10.03.53; Write down the type of error then call maintenance service. Impossible to return any measurements for the
+50.00.00; SERVICE MAINTENANCE
+50.01.01; AUTOMATION XON Error Axis Card
+50.01.02; AUTOMATION XOFF Error Axis Card
+50.01.03; AUTOMATION NACK received Axis Card
+50.01.04; AUTOMATION Time out on start sequence
+50.01.05; AUTOMATION Time out on  end sequence
+50.01.06; AUTOMATION Emergency Stop performed
+50.01.07; AUTOMATION Slipping detected
+50.01.08; AUTOMATION Suction impossible 
+50.01.09; AUTOMATION Timeout on waiting  for start digit
+50.01.16; AUTOMATION Detection problem at loading station
+50.01.17; AUTOMATION Cuvette detection problem Check reel
+50.01.19; AUTOMATION Cuvette removal problem in loading station
+50.01.21; AUTOMATION Zero axis detector defective
+50.01.22; AUTOMATION Open door detected
+50.01.23; AUTOMATION Axis Z blocked
+50.02.01; DRAWERS - PID No response from PID
+50.02.02; DRAWERS - PID Drawer opening or closing problem
+50.02.03; DRAWERS - PID Unknown message
+50.02.04; DRAWERS - PID Bad checksum
+50.02.05; DRAWERS - PID Timeout on drawer opening or closing
+50.03.01; MEASUREMENT NACK received
+50.03.02; MEASUREMENT Bad checksum
+50.03.03; MEASUREMENT Unknown message
+50.03.04; MEASUREMENT Timeout on waiting for ACK
+50.03.05; MEASUREMENT Timeout on waiting for pipetting
+50.03.06; MEASUREMENT Emergency stop performed
+50.03.07; MEASUREMENT Measure > Max Time (Result = 0)
+50.03.08; MEASUREMENT Impossible result (Result = -1)
+50.03.09; MEASUREMENT Measure < Min Time (Result = -2)
+50.03.10; MEASUREMENT General time out
+50.03.11; MEASUREMENT Time out on waiting for result
+50.03.12; MEASUREMENT No stop
+50.03.13; MEASUREMENT Bad photometry result
+50.03.14; MEASUREMENT Colorimetry module temperature is too high.
+50.03.15; MEASUREMENT Colorimetry lamp does not work.
+50.03.16; MEASUREMENT Colorimetry lamp level is too low.
+50.03.17; MEASUREMENT Colorimetry motor problem
+50.03.18; MEASUREMENT Colorimetry motor is too slow
+50.03.19; MEASUREMENT Conversion error.
+50.03.22; MEASUREMENT Open door detected
+50.03.23; MEASUREMENT Calibration impossible
+50.03.24; MEASUREMENT Lamp calibration impossible Lamp too strong
+50.03.25; MEASUREMENT Lamp calibration impossible Lamp too low
+50.03.26; MEASUREMENT Lamp calibration impossible Discrepancy in values
+50.04.01; FLUIDICS PART Problem filling intermediate reservoir
+50.04.02; FLUIDICS PART Containers missing or full
+50.04.03; FLUIDICS PART Vacuum reservoir Emptying problem
+50.04.06; FLUIDICS PART Emergency stop performed
+50.04.22; FLUIDICS PART Open door detected
+50.04.23; FLUIDICS PART The pipettor configuration detected is not the expected configuration.
+50.04.24; FLUIDICS PART The MPP firmware version is not suitable for the pipettor configuration.
+08.00.00; ANALYSES MANAGEMENT Error
+08.03.01; DATA BASE Problem reading file TESTS.DAT
+08.03.02; DATA BASE Problem reading file CALIB.DAT
+08.03.03; DATA BASE Problem reading file CQ.DAT
+08.03.04; PRODUCTS MISSING Please, check analyses status 
+08.10.00; CUVETTE ERROR Grip problem at shuttle level. How do you want to remove the cuvette?
+08.20.00; CUVETTE ERROR There is at least one cuvette left on the measurement plate How do you want to remove the cuvette?
+08.40.00; No cleaning solutions for rinsing needles Please, load Id:
+08.43.00; No cleaning solutions for rinsing needles Please, load Id:
+08.51.00; CUVETTE ERROR Please remove the cover and manually take the cuvettes out.
+08.53.00; CUVETTE ERROR Please replace the cover.
+08.55.00; CUVETTE ERROR Warning: The cover is not correctly positionne05.00.00 SYSTEM HOST COMMUNICATION
+05.01.00; SYSTEM HOST RECEPTION Incorrect station #
+05.02.00; SYSTEM HOST RECEPTION Identity not found in database Operation not performed
+05.03.00; SYSTEM HOST RECEPTION All received ranks unknown Operation not performed Identity:
+05.03.01; SYSTEM HOST RECEPTION Rank received in duplicate Operation not performed
+05.04.00; SYSTEM HOST RECEPTION Reception buffer writing impossible
+05.05.00; SYSTEM HOST RECEPTION Reception buffer reading impossible 
+05.06.00; TRANSMISSION TO SYSTEM HOST NACK character transmission impossible
+05.07.00; SYSTEM HOST RECEPTION Incorrect checksum
+05.08.00; TRANSMISSION TO SYSTEM HOST ACK character transmission impossible
+05.09.00; SYSTEM HOST RECEPTION No response
+05.09.01; SYSTEM HOST RECEPTION Defective transmission (NACK returned)
+05.09.02; SYSTEM HOST RECEPTION Work list not returned for identity:
+05.10.00; TRANSMISSION TO SYSTEM HOST File transmission impossible
+05.11.00; TRANSMISSION TO SYSTEM HOST No result for this identy
+05.12.00; TRANSMISSION TO SYSTEM HOST STA not connected Please connect
+05.13.00; TRANSMISSION TO SYSTEM HOST Identity not found in database Identity:
+05.14.00; TRANSMISSION TO SYSTEM HOST Invalid identity > 8 characters Identity:
+05.15.00; TRANSMISSION TO SYSTEM HOST Invalid result format Identity / Analysis
+05.20.00; TRANSMISSION TO SYSTEM HOST Impossible to open line
+05.21.00; TRANSMISSION TO SYSTEM HOST Response different  from ACK character
+05.22.00; TRANSMISSION TO SYSTEM HOST No response
+05.23.00; SYSTEM HOST RECEPTION Incorrect frame number
+05.24.00; SYSTEM HOST RECEPTION Incorrect frame checksum
+05.25.00; SYSTEM HOST RECEPTION Incorrect instrument identity number
+05.26.00; SYSTEM HOST RECEPTION Incorrect software version number
+05.27.00; SYSTEM HOST RECEPTION Returned identity unknown Identity:
+09.00.00; AXIS Z COMMUNICATION Error
+09.01.00; NACK received Tx:
+09.02.00; No signal received Tx:
+09.10.00; Reception in measurement  Unknown message
+09.11.00; In reception: Incorrect checksum
+14.00.00; INPUT / OUTPUT MODULE Error
+14.01.00; Communication error  with firmware
+13.00.00; HIL MODULE Error
+13.01.00; Invalid calibration 
+13.02.00; Measurement not received  within the required time
+13.03.00; Communication error  with firmware
+13.04.00; Excessively high black level detected during calibration
+13.05.00; Excessively high black level detected during Cleaner measurement
+13.06.00; Black level greater than white level during Cleaner measurement
+13.07.00; Excessively high black level detected during Plasma measurement
+13.08.00; Excessively high black level detected during measurement
+03.00.00; DRAWER COMMUNICATION Error
+03.01.00; No signal received from drawer Tx:
+03.02.00; Drawer in reception Incorrect checksum
+03.03.00; Drawer reception Unknown message
+04.00.00; MEASUREMENT PLATE COMMUNICATION Error
+04.01.00; NACK received by measurement Tx:
+04.02.00; No reception in measurement  Tx:
+04.03.00; Poor reception in measurement Character received:
+04.10.00; Reception in measurement  Unknown message
+04.11.00; Master reset of measurement Message RAZM
+04.12.00; Master reset of measurement  Message RAZG
+04.13.00; Reception in measurement  Incorrect checksum
